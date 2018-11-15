@@ -2,3 +2,4 @@ bottle
 beaker
 static
 views
+pymysql
