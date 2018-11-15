@@ -1,6 +1,5 @@
 import pymysql
 from bottle import *
-import os
 
 @route('/')
 def index():
