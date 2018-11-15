@@ -1,5 +1,4 @@
 import pymysql
-import pymysql.cursors
 from bottle import *
 import os
 
@@ -60,7 +59,7 @@ def member():
     return output
 
 try:
-    run(host='0.0.0.0', port=os.environ.get('PORT'))
+    run(host="0.0.0.0", port=os.environ.get('PORT'))
 except:
     run(debug=True)
 
