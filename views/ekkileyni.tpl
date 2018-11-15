@@ -13,6 +13,7 @@
     </style>
 </head>
 <body>
-    <h2>Velkomin/n á lenisíðuna {{u}} :)</h2>
+    <h2>Þú hefur ekki réttindi til að skoða síðuna :(</h2>
+    <p><a href="/#inn">Aftur á skráningarsíðu</a></p>
 </body>
 </html>

@@ -1,6 +1,6 @@
 create database 2811992349_vefV7
 
-create table 2811992349_vefV7.user(
+create table 2811992349_vefV7.users(
 
 user varchar(255) NOT NULL,
 
@@ -13,4 +13,4 @@ PRIMARY KEY(user)
 )
 
 
-INSERT INTO 2811992349_vefV7.user (user,pass,nafn) VALUES ('ssa',  '12345',  'sigsteinn')
+INSERT INTO 2811992349_vefV7.users (user,pass,nafn) VALUES ('ssa',  '12345',  'sigsteinn')
